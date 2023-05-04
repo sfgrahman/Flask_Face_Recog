@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+    <div class="container">
+        <div class="bg-body-tertiary rounded" style="padding-top: 50px;;">
+            <h1>Face Recognition Application</h1>
+           
+          </div>
+       
+        <p>Gender Classification: This app is driven by data and machine learning model. As soon as user upload the image, it will convert into grayscale, crop face, convert to eigen image and finally  model to get the prediction result.</p>
+
+        <br>
+        <a href="{{url_for('gender')}}" class="btn btn-outline-primary">Try It</a>
+    </div>
+
+{% endblock %}

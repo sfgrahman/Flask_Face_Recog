@@ -1,0 +1,6 @@
+Flask==2.2.2
+gunicorn
+sklearn==1.2.0
+pandas
+matplotlib
+opencv-python
